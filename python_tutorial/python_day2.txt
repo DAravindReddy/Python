@@ -40,3 +40,46 @@ y = 20
 print(x > 5 and y > 10)
 print(x > 5 or y < 10)
 print(not(x > 5))
+=========================================================================================
+
+
+Conditional statements
+======================
+Used to make decision
+
+Basic if
+--------
+age = 18
+if age >= 18:
+	print("You can vote") #indentation matters in python
+
+if-else
+-------
+age = int(input("Enter age: ")
+if age >= 18:
+	printf("You can vote")
+else:
+	print("Not eligible")
+
+if-elif-else
+------------
+marks = int(input("Enter marks: ")
+if marks >= 90:
+	print("Grade A")
+elif marks >= 75:
+	print("Grade B")
+elif marks >= 55:
+	printf("Gradr C")
+else
+	print("Fail")
+
+#Nested if
+----------
+age = 25
+citizen = True
+
+if age > 18:
+    if citizen:
+        print("Eligible to vote")
+~                                                                                         
+~                                   
