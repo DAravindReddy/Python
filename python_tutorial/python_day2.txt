@@ -1,0 +1,42 @@
+Day2: python tutorial
+
+Operators and conditional statements
+
+1. Operators in python
+->Arithmetic
+->Logical
+->Comparision
+
+=>Arithmetic
+Eg:
+a = 10
+b = 5
+print(a+b) #Addition
+print(a-b) #Subraction
+print(a*b) #Multiplication
+print(a/b) #Division
+print(a%b) #Modulus
+print(a//b) #Floordivision
+print(a ** b) #power
+
+=>Comparision
+Used to compare values. Result true or false
+Eg:
+x = 10
+y = 20
+print(x == y)
+print(x != y)
+print(x >= y)
+print(x <= y)
+print(x > y)
+print(x < y)
+
+=>Logical Operators
+Used with conditions
+Result true or false
+Eg:
+x = 10
+y = 20
+print(x > 5 and y > 10)
+print(x > 5 or y < 10)
+print(not(x > 5))
