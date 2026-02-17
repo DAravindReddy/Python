@@ -1,0 +1,50 @@
+
+What is Python?
+->High level programming language
+->easy to read
+->Interpreted language
+->used in Web, AI, Automations, Embedded etc..
+
+first program:
+->print("Hello world!")
+output: Hello world!
+
+Variables:
+->To store data
+->cannot start with a number
+->we can start with '_'
+->No spaces
+->case sensitive(name = "Aravind", Name = "Reddy" here two are different variables)
+Eg: name = "Aravind"	(string)
+    x = 10		(int)
+    ch = c		(char)
+    len	= 12.4		(float)
+
+Data types:
+
+1. integer:
+Eg: x = 10
+print(x)
+2. Float:
+Eg: y = 10.5
+print(y)
+3.string
+Eg: name = "Aravind"
+Eg: name = "Python"
+print(name)
+4. Boolean:
+Eg: is_active = True
+print(is_active) #1 as output
+
+
+In python if you want to give input from user we need to use input method
+Eg: name = input("Enter your name: ")
+print(name)
+
+input is always string.
+conver it into integer:
+Eg: age = int(input("Enter your age: ")
+print("Age = ",age)
+
+
+
