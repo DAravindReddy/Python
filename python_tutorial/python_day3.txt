@@ -14,6 +14,7 @@ Today you will learn:
 for loop:
 ========
 used when we know how many time to repate
+syntax: for variable in range(start, stop):
 Eg:
 for i in range(1, 6):
 	print(i)
@@ -25,12 +26,22 @@ output:
 5
 
 Eg:
-for i in range(1, 6)
+for i in range(1, 6):
 	print("Hello")
 
+Eg: name = "Aravind"
+for ch in name:
+	print(ch)
+
+Eg : with step
+for i in range(0, 10, 2):
+	print(i)
 while loop
 ==========
 used when we don't know the no of iteration want to do
+Eg: infinite loop
+while True:
+	print("Hello")
 Eg:
 count = 1
 while count < 6

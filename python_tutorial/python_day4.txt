@@ -1,0 +1,134 @@
+Today we’ll master:
+
+✅ What is a String
+
+✅ String indexing
+
+✅ String slicing
+
+✅ String methods
+
+✅ String operations
+
+✅ Mini problems
+
+1. What is string in python?
+Ans: A string is a sequence of characters.
+Eg: name = "Aravind"
+or 
+name = 'Aravind'
+
+2. String indexing?
+Ans: Every character has a position(index).
+Eg: 
+name = 'Aravind'
+
+print(name[0])	 #A
+print(name[-1])	 #d last character
+
+3. String slicing
+Ans: used to get part of string
+syntax: string[start:end]
+
+Eg:
+name = "Aravind"
+
+print(name[0:4]) #Arav
+print(name[4:7]) #ind
+print(name[:3])  #Ara
+print(name[3:])  #vind
+
+4. Sting operations:
+=>concatenation:
+-----------------
+Eg:
+First = "Aravind"
+Second = "Reddy"
+full = First + " " + Second
+print(full)
+
+=>Repeat string:
+----------------
+print("Hi " *3)
+output: Hi Hi Hi 
+
+5. Important String methods
+--------------------------
+--------------------------
+=>Convert case
+text = "python"
+print(text.upper())
+print(text.lower())
+print(text.capitalize())
+
+=>Remove spaces
+text = "  hello  "
+print(text.strip())
+
+
+=>Replace text
+text = "I like Java"
+print(text.replace("Java", "Python"))
+
+
+=>Find length
+name = "Aravind"
+print(len(name))
+
+
+=>Check substring
+text = "Python is easy"
+
+print("easy" in text)   # True
+print("hard" in text)   # False
+
+==========================================================================================
+
+6. Loop Through string
+
+name = "Aravind"
+
+for char in name:
+    print(char)
+
+
+Mini Project – Palindrome Checker
+--------------------------------
+Palindrome = same forward & backward
+
+Example:
+
+madam
+
+level
+
+code:
+word = input("Enter a word: ")
+
+if word == word[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+👉 [::-1] reverses string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
